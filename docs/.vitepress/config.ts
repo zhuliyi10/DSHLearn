@@ -42,6 +42,8 @@ export default defineConfig({
   title: 'DSHLearn',
   description: '用 20 节渐进式小实现，拆解 DeepSeek Harness（dsh）的机制',
   lang: 'zh-CN',
+  // GitHub Pages 部署在仓库子路径下
+  base: '/DSHLearn/',
   cleanUrls: true,
   lastUpdated: true,
   ignoreDeadLinks: true,
