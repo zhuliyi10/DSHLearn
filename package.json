@@ -24,6 +24,9 @@
     "s17": "tsx s17-integrated-harness/src/index.ts",
     "s18": "tsx s18-workflow/src/index.ts",
     "s19": "tsx s19-goal-loop/src/index.ts",
+    "docs:dev": "vitepress dev docs",
+    "docs:build": "vitepress build docs",
+    "docs:preview": "vitepress preview docs",
     "typecheck": "tsc --noEmit"
   },
   "dependencies": {
@@ -33,6 +36,7 @@
   "devDependencies": {
     "@types/node": "^22.10.2",
     "tsx": "^4.19.2",
-    "typescript": "^5.7.2"
+    "typescript": "^5.7.2",
+    "vitepress": "^1.6.4"
   }
 }
