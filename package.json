@@ -1,0 +1,38 @@
+{
+  "name": "dshlearn",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "Learn DeepSeek Harness — 用 20 节渐进式小实现拆解 dsh 的 harness 机制",
+  "scripts": {
+    "s01": "tsx s01-agent-loop/src/index.ts",
+    "s02": "tsx s02-cordis-context/src/index.ts",
+    "s03": "tsx s03-events-bus/src/index.ts",
+    "s04": "tsx s04-session-log/src/index.ts",
+    "s05": "tsx s05-system-prompt/src/index.ts",
+    "s06": "tsx s06-tool-pipeline/src/index.ts",
+    "s07": "tsx s07-approval-guard/src/index.ts",
+    "s08": "tsx s08-bash-seam/src/index.ts",
+    "s09": "tsx s09-fs-seam/src/index.ts",
+    "s10": "tsx s10-mcp-seam/src/index.ts",
+    "s11": "tsx s11-subagent/src/index.ts",
+    "s12": "tsx s12-skill-loading/src/index.ts",
+    "s13": "tsx s13-todo/src/index.ts",
+    "s14": "tsx s14-compaction/src/index.ts",
+    "s15": "tsx s15-jobs/src/index.ts",
+    "s16": "tsx s16-schedule/src/index.ts",
+    "s17": "tsx s17-integrated-harness/src/index.ts",
+    "s18": "tsx s18-workflow/src/index.ts",
+    "s19": "tsx s19-goal-loop/src/index.ts",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@anthropic-ai/sdk": "^0.120.0",
+    "dotenv": "^16.4.5"
+  },
+  "devDependencies": {
+    "@types/node": "^22.10.2",
+    "tsx": "^4.19.2",
+    "typescript": "^5.7.2"
+  }
+}
